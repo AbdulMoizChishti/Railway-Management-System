@@ -21,7 +21,7 @@ public class SeatReservation {
 
     public void Destination() {
 
-        System.out.println("Enter the name of main head of passenger");
+        System.out.println("Enter the name of main head of Passenger : ");
         String nameofmainpassenger = s.nextLine();
         System.out.println("------------------------------");
         System.out.println("Welcome to the Railway");

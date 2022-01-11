@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.Scanner;
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Abdul Moiz Chishti
  */
 public class Waitinglounge {
       void lounge(){
@@ -22,7 +22,7 @@ public class Waitinglounge {
               System.out.println("2- Removal of record");
               System.out.println("3- Searching for existing record"); 
               System.out.println("4- Complete list of Waiting lounge"); 
-          System.out.println("5- Return to main menu.");
+          System.out.println("5- Return to main menu./n/n");
           
           System.out.print("Enter an option : ");
        i = sc.nextInt();
@@ -49,10 +49,10 @@ public class Waitinglounge {
              String name2 = sc.next();
              boolean check = obj.contains(name2);
              if(check == true){
-             System.out.println(name2+" is present in records.");
+             System.out.println(name2+" is present in records./n");
              }
              if(check == false){
-                 System.out.println(name2+" is not present in records.");
+                 System.out.println(name2+" is not present in records./n");
              }
              break;
          case 4:
